@@ -20,33 +20,38 @@
     <h1>Curiculum Vitae (CV)</h1>
     <article>
         <h2>Présentation</h2>
+        <div itemscope itemtype="http://schema.org/Person">
         <section>
+        
             <h3>Dénomination</h3>
                 <p>
-                  Nom : BERNARD<br/>
-                  Prénom : Renaud<br/>
-                  Date de naissance: 31/01/1992
+                  Nom : <span itemprop="name"><span itemprop="givenName">Renaud</span> <span itemprop="familyName">BERNARD</span></span><br/>
+                  Date de naissance: <datetime time="1992-01-31"><span itemprop="birthDate">31/01/1992</span></datetime><br/>
+                  Statut : <span itemprop="jobTitle">Etudiant</span>
                 </p>
         </section>
         <address>
         <section>
             <h3>Coordonnées</h3>
                 <p>
-                  Téléphone : +33 (0)6 31 63 61 82<br/>
-                  Mail : renaud.bernard@p59production.com
+                  <span itemprop="telephone">Téléphone : +33 (0)6 31 63 61 82<br/>/span>
+                  Mail : <a href="mailto:renaud.bernard@p59production.com" temprop="email">renaud.bernard@p59production.com</a>
                 </p>
         </section>
         <section>
             <h3>Adresse postale</h3>
                 <p>
-                  Rue : 1158, route de Méteren<br/>
-                  Code postal : 59270<br/>
-                  Ville : Bailleul<br/>
-                  Région : Nord<br/>
-                  Pays : France
+                 <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    <span itemprop="streetAddress">1158, route de Méteren<br/>
+                  Code postal : <span itemprop="postalCode">59270</span><br/>
+                  Ville : <span itemprop="addressLocality">Bailleul</span><br/>
+                  Région : <span timeprop="addressRegion">Nord</span><br/>
+                  Pays : <span tiemprop="addressCountry">France</span>
                 </p>
+        
         </section>
     </address>
+    </div>
         <section>
             <h3>Suppléments</h3>
                 <p>
